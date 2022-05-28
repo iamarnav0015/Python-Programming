@@ -1,0 +1,6 @@
+def reverse(s):
+    a=list(s)
+    a.reverse()
+    out="".join(a)
+    return out
+print(reverse(input()))
