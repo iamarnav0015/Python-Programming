@@ -1,0 +1,6 @@
+def unique(a):
+    a=set(a)
+    a=list(a)
+    return a
+a=eval(input("enter a list: ")) 
+print(unique(a))   
