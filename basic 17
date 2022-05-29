@@ -1,0 +1,12 @@
+'''17. Program to input the number of heads and feet in a farm and identify the number of chickens 
+and goats in the farm. For example, if there are 340 heads and 1,060 feet, there are 150 
+chickens and 190 goats.'''
+
+x=int(input("enter number of heads:  "))
+y=int(input("enter number of feet: "))
+
+G=-((2*x-y)/2)
+c=x-G
+
+print(f'''           number of goat is {G}
+         and number of chickens is {c}''')
