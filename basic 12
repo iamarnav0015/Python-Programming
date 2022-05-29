@@ -1,0 +1,17 @@
+#12. Program to find whether a triangle is scalene, isosceles, right angled or invalid when the sides of 
+#the triangle are entered by the user. 
+
+a=eval(input("enter first side of triangle: "))
+b=eval(input("enter second side of triangle: "))
+c=eval(input("enter third side of triangle: "))
+
+
+if (a==b) or (b==c) or (a==c):
+    print("given side form isosceles triangle. ")
+
+elif ((a**2)==(b**2) + (c**2)) or ((b**2)== (a**2)+ (c**2)) or ((c**2)==(a**2)+(b**2)):
+    print("given side form right triangle.")
+elif (a!=b) and (b!=c):
+    print("enter sides form sacalene triangle. ")    
+else:
+    print("given side are invalid")
