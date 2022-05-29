@@ -1,0 +1,10 @@
+'''16. Program to input the number of overs in a Cricket match and output the maximum runs a 
+player can score in the match. Assume that there are no extra runs or NO balls in the match 
+played. For example, in a 50 over match, the maximum runs scored are 1653.'''
+
+
+O=int(input("enter number of overs: ")) 
+
+T= (6*6)  +  (O-1)*5*6  + (O-1)*3
+
+print(f"total runs score score by a player is {T}")
