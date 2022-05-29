@@ -1,0 +1,5 @@
+#10. Program to input two numbers and print the swapped values of them
+a=eval(input("enter first number: "))
+b=eval(input("enter second number: "))
+a,b=b,a
+print(a,b)
