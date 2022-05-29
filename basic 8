@@ -1,0 +1,7 @@
+#8. Program to find the area and circumference of a circle, when the radius is entered by the user. 
+#However, the user can input radius in integer or float.
+r=eval(input("enter radius of circle: "))
+a=3.14*r*r
+b=2*3.14*r
+print("area: ", a)
+print("circumference: ",b)
