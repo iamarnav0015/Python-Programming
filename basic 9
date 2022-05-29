@@ -1,0 +1,6 @@
+'''9. Program to find the hypotenuse of a right angled triangle, when the base and height are entered 
+by the user.'''
+b=eval(input("enter base of right triangle: "))
+h=eval(input("enter height of right triangle: "))
+hypotenuse=((b**2) + (h**2))**0.5
+print("hypotenuse of triangle is: ",hypotenuse)
