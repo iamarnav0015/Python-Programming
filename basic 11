@@ -1,0 +1,18 @@
+'''11. Program to find the number of currency notes of each type (Rs. 2000, Rs. 500 and Rs. 100), 
+when the total number of currency notes counted altogether is minimum and there must be at 
+least a 100 rupee note dispensed. The amount to be withdrawn is to be entered by the user.'''
+
+amount = eval(input("enter the amount"))
+amount-100
+a=amount//2000
+amount%=2000
+
+b=amount//500
+amount%=500
+
+c=(amount//100)+1
+amount%=100
+
+print(f'''no. of 2000 notes {a}
+    500 notes {b}
+    100 notes {c}''')
