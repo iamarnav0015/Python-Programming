@@ -1,0 +1,6 @@
+n=input("enter a number : ")
+s=0
+for i in n:
+    s+=int(i)
+
+print(f"sum of digit is {s}")   
